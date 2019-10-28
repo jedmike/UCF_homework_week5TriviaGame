@@ -1,0 +1,21 @@
+/* Background image */
+
+.jumbotron {
+    background-image: url("../images/normandy2.jpg");
+    color: rgb(71, 3, 3);
+    font-display: ;
+    ;
+    ;
+}
+
+.container {
+    background-color: olive;
+}
+
+#ts {
+    background-color: olive;
+}
+
+#ys {
+    background-color: olive;
+}
