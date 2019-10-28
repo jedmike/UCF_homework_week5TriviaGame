@@ -13,7 +13,7 @@ var questionsRight = 0;
 
 var questions = [{
         question: "What year did war against Germany begin?",
-        answers: ["1938", "1939", "1940", "1941", "1942"],
+        answers: [" 1938 ", " 1939 ", " 1940 ", " 1941 ", " 1942"],
         answer: "1938"
     },
 
@@ -55,7 +55,7 @@ var questions = [{
 
     {
         question: "Who was the General in commanad of Allied forces in Europe?",
-        answers: ["Rommel", , "Montgomery", "Patton", "Eisenhower", "DeGaul"],
+        answers: ["Rommel", "Montgomery", "Patton", "Eisenhower", "DeGaul"],
         answer: "Eisenhower"
     },
 ]

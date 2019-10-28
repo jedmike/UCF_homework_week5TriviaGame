@@ -2,7 +2,7 @@
 
 .jumbotron {
     background-image: url("../images/normandy2.jpg");
-    color: rgb(71, 3, 3);
+    color: rgb(100, 4, 4);
     font-display: ;
     ;
     ;
@@ -10,6 +10,7 @@
 
 .container {
     background-color: olive;
+    color: rgb(100, 4, 4);
 }
 
 #ts {
