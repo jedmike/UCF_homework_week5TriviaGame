@@ -1,9 +1,9 @@
-alert("allgood") //start game WW2 Trivia
+//alert("allgood") //start game WW2 Trivia
 
 
 //global variables
 // * The player will have a limited amount of time to finish the quiz. 
-var countDownTime = 20;
+var countDownTime = 90;
 
 //   * The game ends when the time runs out. The page will reveal the number of questions that players answer correctly and incorrectly.
 var questionsRight = 0;
@@ -73,37 +73,40 @@ console.log(questions[0].answer);
 
 
 //load questions function
-var loadGame = function()
-for (i = 0, questions.length { i }
-
-
-    //timer function
-    var intervalID = setInterval(function() {
-        if (--countDownTime >= 0) {
-            console.log(countDownTime);
-            $("#targets").text(countDownTime)
-        } else { clearInterval };
-    }, 1000);
 
 
 
+//timer function
+var intervalID = setInterval(function() {
+    if (--countDownTime >= 0) {
+        console.log(countDownTime);
+        $("#targets").text(countDownTime)
+    } else { clearInterval };
+}, 1000);
 
-
-    //     if (questions[0].answers[2] === questions[0].answer) {
-    //          console.log("Correct!")
-    //      } else {
-    //          console.log("Incorrect!");
-    //      }
-
-    // * You'll create a trivia form with multiple choice or true/false options (your choice).
-
-    $("#question1").text(questions[0].question); console.log();
-
-
-    /
+//logic
 
 
 
-    // * Don't let the player pick more than one answer per question.
 
-    // * Don't forget to include a countdown timer.
+
+
+
+//     if (questions[0].answers[2] === questions[0].answer) {
+//          console.log("Correct!")
+//      } else {
+//          console.log("Incorrect!");
+//      }
+
+// * You'll create a trivia form with multiple choice or true/false options (your choice).
+
+// $("#question1").text(questions[0].question); console.log();
+
+
+
+
+
+
+// * Don't let the player pick more than one answer per question.
+
+// * Don't forget to include a countdown timer.
